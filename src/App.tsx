@@ -3,9 +3,11 @@ import AppRoutes from "./AppRoutes";
 
 function App() {
   return (
-    <BrowserRouter>
-      <AppRoutes/>
-    </BrowserRouter>
+    <div className="w-screen h-screen bg-primary-100">
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+    </div>
   );
 }
 

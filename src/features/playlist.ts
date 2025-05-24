@@ -1,0 +1,1 @@
+//current playlist and user playlist state manager

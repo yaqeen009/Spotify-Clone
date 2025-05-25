@@ -3,6 +3,8 @@ import AppRoutes from "./AppRoutes";
 import SideNav from "./components/sideNav";
 import Split from "react-split";
 import TopNav from "./components/topNav";
+import BottomControls from './components/bottomControls'
+
 
 function App() {
   return (
@@ -29,7 +31,9 @@ function App() {
           </div>
         </Split>
       </div>
-      <div className="w-full h-[10vh] bg-primary-100"></div>
+      <div className="w-full h-[10vh] bg-primary-100">
+        <BottomControls/>
+      </div>
     </div>
   );
 }

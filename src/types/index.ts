@@ -7,6 +7,8 @@ export interface ButtonProps {
     btnName: string;
     btnClick: ()=> void;
     btnType: "button"| "submit"| "reset"
+    isScale: boolean
+    colors: string
 }
 
 //props for player card 

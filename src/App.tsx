@@ -2,12 +2,15 @@ import { BrowserRouter } from "react-router-dom";
 import AppRoutes from "./AppRoutes";
 import SideNav from "./components/sideNav";
 import Split from "react-split";
+import TopNav from "./components/topNav";
 
 function App() {
   return (
     <div className="w-screen h-screen bg-primary-100 font-open_sans flex flex-col">
-      <div className="w-full h-[5vh] bg-primary-100"></div>
-      <div className="w-full h-[85vh] p-2">
+      <div className="w-full h-[6vh] bg-primary-100">
+        <TopNav/>
+      </div>
+      <div className="w-full h-[84vh] p-2">
         <Split
           direction="horizontal"
           sizes={[40, 60]}

@@ -1,3 +1,7 @@
+/*
+component for displaying top navigations 
+*/
+
 import logo from "../assets/icons/social.png";
 import home from "../assets/icons/Home-filled.svg";
 import Search from "../assets/icons/search.svg";

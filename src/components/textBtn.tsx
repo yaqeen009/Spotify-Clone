@@ -1,3 +1,7 @@
+/*
+component for handling text-only buttons
+*/
+
 import type { ButtonProps } from "../types";
 
 export default function TextBtn({ colors, btnName, btnClick, btnType, isScale }: ButtonProps) {

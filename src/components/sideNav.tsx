@@ -1,4 +1,6 @@
-
+/*
+  component for displaying side navigations
+*/
 
 export default function SideNav() {
   return (

@@ -21,7 +21,7 @@ function App() {
           gutterSize={8}
           className="flex h-full w-full"
           dragInterval={20}
-          snapOffset={100}
+          snapOffset={50}
         >
           <SideNav />
           <div>

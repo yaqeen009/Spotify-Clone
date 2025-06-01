@@ -1,3 +1,7 @@
+/*
+component for displaying current song and music player controls 
+*/
+
 import CurrentSong from "./currentSong";
 
 function BottomControls() {

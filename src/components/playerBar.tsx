@@ -1,0 +1,3 @@
+/*
+component for holding music player progression bar
+*/

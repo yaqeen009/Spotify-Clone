@@ -1,3 +1,7 @@
+/*
+component for handling text & icon buttons 
+*/
+
 import type { ButtonProps } from "../types";
 
 interface IconProp {

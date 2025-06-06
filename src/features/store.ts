@@ -1,8 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
+import { expanderReducer } from "./trackExpander";
 
 export const store = configureStore({
     reducer: {
-
+        expander: expanderReducer
     }
 })
 

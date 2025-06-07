@@ -37,6 +37,8 @@ export default function TopNav() {
         <span className="w-8 h-8 ml-4 mr-8 ">
           <img src={logo} alt="Spotify" />
         </span>
+      </div>
+      <div className="flex flex-row space-x-4">
         <span className="bg-primary-200 w-fit h-fit flex p-3 rounded-full">
           <img src={home} alt="Home" className="self-center w-5 h-5" />
         </span>
@@ -63,8 +65,6 @@ export default function TopNav() {
             alt="Browse"
           />
         </span>
-      </div>
-      <div className="flex flex-row space-x-4">
         <TextBtn
           colors="bg-secondary-100 text-primary-100"
           btnName="Explore Premium"

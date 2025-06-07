@@ -1,10 +1,10 @@
 import { BrowserRouter } from "react-router-dom";
 import AppRoutes from "./AppRoutes";
-import SideNav from "./components/sideNav";
+import SideNav from "./layouts/sideNav";
 import Split from "react-split";
-import TopNav from "./components/topNav";
-import BottomControls from "./components/bottomControls";
-import ExpandedTrack from "./components/expandedTrack";
+import TopNav from "./layouts/topNav";
+import BottomControls from "./layouts/bottomControls";
+import ExpandedTrack from "./layouts/expandedTrack";
 import { useSelector } from "react-redux";
 import type { RootState } from "@reduxjs/toolkit/query";
 

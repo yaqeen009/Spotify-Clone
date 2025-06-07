@@ -10,8 +10,8 @@ import download from "../assets/icons/download.svg";
 import noti from "../assets/icons/Noti-unfilled.svg";
 import friends from "../assets/icons/friends.svg";
 
-import TextBtn from "./textBtn";
-import TextIconBtn from "./textIconBtn";
+import TextBtn from "../components/textBtn";
+import TextIconBtn from "../components/textIconBtn";
 import { useState } from "react";
 
 export default function TopNav() {
